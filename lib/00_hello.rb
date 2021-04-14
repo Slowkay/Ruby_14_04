@@ -2,7 +2,7 @@ puts "Il faut que tu dises bonjour !"
 print ">"
 input = gets.chomp
 
-while input != "Bonjour"
+while input.downcase != "bonjour"
     puts "Il a pas dit bonjour !"
     puts "On va niquer ta mère !"
     puts "Bonjour madame, on va niquer ta mère"
@@ -12,7 +12,6 @@ while input != "Bonjour"
     puts "Il s'est fait niquer sa mère"
     puts " "
     puts "Est-ce qu'il va dire bonjour ?"
-    fEFFFEZQFEAZFEZA
     input = gets.chomp
 end
 
